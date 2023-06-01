@@ -4,7 +4,8 @@
 .header{
   height: 126px;
   width: 100%;
-  display: flex;
-  justify-content: center;
   background-color: grey ;
+}
+.header_announcement{
+    text-align: center;
 }
