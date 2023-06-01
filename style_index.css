@@ -4,7 +4,12 @@
 .header{
   height: 126px;
   width: 100%;
-  background-color: grey ;
+  
+}
+.header_someinformation{
+    height: 44px;
+    width: 100%;
+    background-color:  #454F5B;
 }
 .header_announcement{
     text-align: center;
