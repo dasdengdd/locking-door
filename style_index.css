@@ -9,6 +9,7 @@
     background-color:  #454F5B;
     color:white;
     white-space: nowrap;
+    display: inline;
 }
 .header_announcement{
     text-align: center;
