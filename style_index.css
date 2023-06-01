@@ -10,9 +10,9 @@
     color:white;
 }
 .header_announcement{
-    text-align: center;
+    float: center;
 }
 .header_call{
-    text-align: right;
+    float: right;
     text-decoration:underline;
 }
