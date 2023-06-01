@@ -1,3 +1,10 @@
 .header_call{
     text-decoration:underline;
-};
+}
+.header{
+  height: 126px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: grey ;
+}
