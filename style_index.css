@@ -10,7 +10,11 @@
     height: 44px;
     width: 100%;
     background-color:  #454F5B;
+    color:white;
 }
 .header_announcement{
     text-align: center;
+}
+.header_call{
+    text-align: right;
 }
