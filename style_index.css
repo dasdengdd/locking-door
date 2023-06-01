@@ -9,16 +9,18 @@
     background-color:  #454F5B;
     color:white;
     white-space: nowrap;
-    display: inline;
+    
 }
 .header_announcement{
     text-align: center;
     padding-top: 9px;
     padding-bottom: 9px;
+    white-space: nowrap;
 }
 .header_call{
     text-align: right;
     text-decoration:underline;
     padding-top: 9px;
     padding-bottom: 9px;
+    white-space: nowrap;
 }
