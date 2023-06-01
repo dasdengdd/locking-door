@@ -8,11 +8,16 @@
     width: 100%;
     background-color:  #454F5B;
     color:white;
+    white-space: nowrap;
 }
 .header_announcement{
-    float: center;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
 }
 .header_call{
-    float: right;
+    text-align: right;
     text-decoration:underline;
+    padding-top: 9px;
+    padding-bottom: 9px;
 }
