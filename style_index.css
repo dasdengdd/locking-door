@@ -1,13 +1,20 @@
-.header {
-    height: 126px;
-    width: 100%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.header {
+    width: 100%;
+    background-color: #454F5B;
+}
+
+.header_container {
+    max-width: 1280px;
+    margin: auto;
 }
 
 .header_someinformation {
-    height: 44px;
-    width: 1440px;
-    background-color: #454F5B;
     color: white;
     display: flex;
     justify-content:space-between;
@@ -38,16 +45,22 @@
 
 }
 
+.navbar {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+}
+
 .header_menu {
-    width: 1440px;
-    height: 60px;
+    max-width: 1280px;
+    margin: auto;
     display: flex;
     justify-content:space-around;
     align-items: center;
     align-self: center;
     align-content: center;
-    
-}
+} 
+
 .header_function{
     width: 500px;
     display: flex;
@@ -79,8 +92,8 @@ height: 774px;
 background-color:rgba(0, 0, 0, 0.02);
 }
 .contener_gallery{
-    height: 550px;
-    width: 1440px;
+   margin: auto;
+    max-width: 1440px;
     left: 0px;
     top: 126px;
     border-radius: 0px;
@@ -116,8 +129,9 @@ background-color:rgba(0, 0, 0, 0.02);
     font-weight: bold;
 }
 .info_company{
-    width: 1440px;
-    height: 160px;
+    max-width: 1440px;
+    margin: auto;
+    
     background: rgba(242, 248, 255, 1);
     display: flex;
     justify-content: space-around;
@@ -132,7 +146,7 @@ background-color:rgba(0, 0, 0, 0.02);
     justify-content:space-around;
     align-self: center;
     align-content: center;
-    
+    font-family: source-regular;
  
 }
 .info_txt1{
@@ -142,4 +156,9 @@ background-color:rgba(0, 0, 0, 0.02);
     align-self: center;
     align-content: center;
 
+}
+
+@font-face {
+    font-family: source-regular;
+    src: url('./assets/fonts/SourceSansPro-Regular.ttf');
 }
