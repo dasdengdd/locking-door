@@ -7,6 +7,7 @@
 .header {
     width: 100%;
     background-color: #454F5B;
+    font-family: source-regular;
 }
 
 .header_container {
@@ -28,6 +29,7 @@
     align-content: center;
     padding-top: 9px;
     padding-bottom: 9px;
+    font-family: source-regular;
 
 }
 
@@ -101,6 +103,7 @@ background-color:rgba(0, 0, 0, 0.02);
     justify-content: center;
     align-items: center;
     align-self: center;
+    font-family: source-regular;
     
 }
 .goat_button{
@@ -157,6 +160,7 @@ background-color:rgba(0, 0, 0, 0.02);
     justify-content:space-around;
     align-self: center;
     align-content: center;
+    font-family: source-regular;
 
 }
 
