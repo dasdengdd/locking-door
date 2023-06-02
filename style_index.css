@@ -125,14 +125,21 @@ background-color:rgba(0, 0, 0, 0.02);
     align-self: center;
     flex-wrap: wrap;
 }
-.txt_txt{
-   
- 
-    
-}
-.info_txt{
 
-}
 .info_txt{
     display: flex;
+    align-items:flex-end;
+    justify-content:space-around;
+    align-self: center;
+    align-content: center;
+    
+ 
+}
+.info_txt1{
+    display: flex;
+    align-items:flex-end;
+    justify-content:space-around;
+    align-self: center;
+    align-content: center;
+
 }
