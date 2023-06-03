@@ -117,29 +117,45 @@
     background: #4295E4;
     border: none;
     color: white;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .name_lock {
     font-weight: bold;
     width: 400px;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .info_lock {
     width: 400px;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .info_lock1 {
+    margin: auto;
     width: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .price_name {
-
+    margin: auto;
     width: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .price_number {
     width: 400px;
     font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .info_company {
@@ -295,7 +311,7 @@
 
 }
 
-.button_allcategory{
+.button_allcategory {
     width: 100%;
     margin: auto;
     display: flex;
@@ -303,15 +319,15 @@
     margin-top: 40px;
 }
 
-.button_all_category{
+.button_all_category {
 
-max-width: 1440px;
-display: flex;
-justify-content: center;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
 
 }
 
-.all_category_button{
+.all_category_button {
     width: 220px;
     height: 50px;
     background: #4295E4;
@@ -319,6 +335,70 @@ justify-content: center;
     color: white;
     margin: auto;
 }
+
+.content_popular {
+    width: 100%;
+    margin: auto;
+    font-family: source-regular;
+}
+
+.contener_content_popular {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.popular_nav {
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.popular_nav_icon {
+    margin-left: 30px;
+}
+
+.popular_cotent_img_info {
+    max-width: 288px;
+    max-height: 426px;
+    background-color: rgba(0, 0, 0, 0.02);
+    display: flex;
+    justify-content: center;
+    box-shadow: inset 0px -1px 0px #EAEAEA, inset 1px 0px 0px #EAEAEA, inset -1px 0px 0px #EAEAEA;
+}
+
+.popular_cotent_img {
+    max-width: 288px;
+    max-height: 320px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.popular_cotent_info {
+    width: 288px;
+    height: 106px;
+    background: #FFFFFF;
+    box-shadow: inset 0px -1px 0px #EAEAEA, inset 1px 0px 0px #EAEAEA, inset -1px 0px 0px #EAEAEA;
+display: flex;
+align-items: center;
+align-content: center;
+align-self: center;
+flex-wrap: wrap;
+
+}
+.popular_txt{
+    margin-top: 10px;
+
+    margin: auto;
+}
+.popular_price{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
 
 @font-face {
     font-family: source-regular;
