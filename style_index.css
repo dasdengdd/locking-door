@@ -559,7 +559,7 @@
     display: flex;
     justify-content: center;
     border: 1px solid grey;
-    
+
 }
 
 .call_back_form_input:nth-child(2) {
@@ -576,8 +576,71 @@
     height: 50px;
     background: #4295E4;
     border: 1px solid grey;
-   
+
 }
+
+
+footer {
+    width: 100%;
+    margin: auto;
+    background: #0D2436;
+    box-shadow: inset 0px 1px 0px #C4CDD5;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.footer-column {
+    flex: 1;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-social a {
+    margin: 0 5px;
+}
+
+.footer-navigation ul,
+.footer-contacts ul,
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-navigation h3,
+.footer-contacts h3,
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-info {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+}
+
+.footer-line {
+    border-top: 1px solid rgba(255, 255, 255, 1);
+    margin: 10px 100px;
+}
+
 
 @font-face {
     font-family: source-regular;
